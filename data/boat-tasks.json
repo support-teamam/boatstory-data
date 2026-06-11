@@ -1,0 +1,1104 @@
+{
+ "schema": 1,
+ "version": 1,
+ "tasks": [
+  {
+   "id": "engine-oil",
+   "task": "Engine Oil & Filter Change",
+   "system": "engine",
+   "hourInterval": 100,
+   "monthInterval": 12,
+   "season": null,
+   "estimatedCost": [
+    40,
+    180
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "pwc",
+    "pontoon",
+    "sailboat"
+   ],
+   "description": "Change oil and filter every 100 hours or annually, whichever comes first. Marine engines work harder than car engines \u2014 never stretch this one."
+  },
+  {
+   "id": "gear-lube",
+   "task": "Lower Unit / Gear Lube Change",
+   "system": "engine",
+   "hourInterval": 100,
+   "monthInterval": 12,
+   "season": "fall",
+   "estimatedCost": [
+    25,
+    120
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Drain and refill gearcase lube; milky lube means water intrusion \u2014 pressure-test the seals before it eats the gears."
+  },
+  {
+   "id": "impeller",
+   "task": "Water Pump Impeller",
+   "system": "engine",
+   "hourInterval": null,
+   "monthInterval": 24,
+   "season": null,
+   "estimatedCost": [
+    40,
+    250
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "pwc",
+    "pontoon",
+    "sailboat"
+   ],
+   "description": "Replace the raw-water impeller every 2-3 seasons; a failed impeller overheats the engine in minutes."
+  },
+  {
+   "id": "spark-plugs",
+   "task": "Spark Plugs",
+   "system": "engine",
+   "hourInterval": 300,
+   "monthInterval": 36,
+   "season": null,
+   "estimatedCost": [
+    30,
+    150
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Replace per engine schedule; fouled plugs are the most common rough-running cause on gas engines."
+  },
+  {
+   "id": "fuel-filter",
+   "task": "Fuel Filter / Water Separator",
+   "system": "engine",
+   "hourInterval": 100,
+   "monthInterval": 12,
+   "season": null,
+   "estimatedCost": [
+    15,
+    90
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "pwc",
+    "pontoon",
+    "sailboat"
+   ],
+   "description": "Replace the water-separating fuel filter; ethanol fuel makes water in fuel a constant marine problem."
+  },
+  {
+   "id": "engine-anodes",
+   "task": "Engine / Drive Anodes",
+   "system": "engine",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    20,
+    120
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "pwc",
+    "pontoon",
+    "sailboat"
+   ],
+   "description": "Inspect sacrificial anodes; replace at 50% gone. They corrode so your engine and drive don't."
+  },
+  {
+   "id": "valve-adjust",
+   "task": "Valve Clearance Check (Diesel)",
+   "system": "engine",
+   "hourInterval": 500,
+   "monthInterval": null,
+   "season": null,
+   "estimatedCost": [
+    150,
+    450
+   ],
+   "diy": false,
+   "appliesTo": [
+    "inboard",
+    "sailboat"
+   ],
+   "description": "Periodic valve adjustment per engine manual keeps a marine diesel healthy for thousands of hours."
+  },
+  {
+   "id": "belts-hoses",
+   "task": "Belts & Hoses Inspection",
+   "system": "engine",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    0,
+    150
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "pwc",
+    "pontoon",
+    "sailboat"
+   ],
+   "description": "Check raw-water and coolant hoses, clamps (double-clamped below waterline), and drive belts for cracking."
+  },
+  {
+   "id": "coolant",
+   "task": "Closed-Loop Coolant Change",
+   "system": "engine",
+   "hourInterval": null,
+   "monthInterval": 24,
+   "season": null,
+   "estimatedCost": [
+    40,
+    200
+   ],
+   "diy": true,
+   "appliesTo": [
+    "sterndrive",
+    "inboard",
+    "sailboat"
+   ],
+   "description": "Freshwater-cooled engines: replace antifreeze in the closed loop every couple of seasons."
+  },
+  {
+   "id": "engine-mounts",
+   "task": "Engine Mounts & Alignment Check",
+   "system": "engine",
+   "hourInterval": null,
+   "monthInterval": 24,
+   "season": null,
+   "estimatedCost": [
+    0,
+    300
+   ],
+   "diy": false,
+   "appliesTo": [
+    "inboard",
+    "sailboat"
+   ],
+   "description": "Inspect mounts for sag and check shaft alignment; vibration is the early warning."
+  },
+  {
+   "id": "bellows",
+   "task": "Sterndrive Bellows Inspection",
+   "system": "drive",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    0,
+    400
+   ],
+   "diy": false,
+   "appliesTo": [
+    "sterndrive"
+   ],
+   "description": "Inspect rubber bellows for cracking \u2014 a torn bellows sinks sterndrive boats at the dock. Replace every ~5 years."
+  },
+  {
+   "id": "gimbal",
+   "task": "Gimbal Bearing & U-Joints",
+   "system": "drive",
+   "hourInterval": null,
+   "monthInterval": 24,
+   "season": null,
+   "estimatedCost": [
+    50,
+    500
+   ],
+   "diy": false,
+   "appliesTo": [
+    "sterndrive"
+   ],
+   "description": "Grease and inspect with the drive off; a howling gimbal bearing means now, not later."
+  },
+  {
+   "id": "prop-check",
+   "task": "Propeller Inspection & Greasing",
+   "system": "drive",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "fall",
+   "estimatedCost": [
+    0,
+    60
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "pwc",
+    "pontoon",
+    "inboard"
+   ],
+   "description": "Pull the prop, check for fishing line at the seal (it destroys seals), grease the shaft, inspect for dings."
+  },
+  {
+   "id": "steering-grease",
+   "task": "Steering System Service",
+   "system": "drive",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    10,
+    150
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Grease mechanical steering or check hydraulic fluid and lines; stiff steering is a safety failure in the making."
+  },
+  {
+   "id": "cables",
+   "task": "Throttle & Shift Cable Check",
+   "system": "drive",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    0,
+    180
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Verify smooth throttle/shift operation; sticky cables strand more boats than dead batteries."
+  },
+  {
+   "id": "jet-pump",
+   "task": "Jet Pump Wear Ring & Impeller",
+   "system": "drive",
+   "hourInterval": 100,
+   "monthInterval": 12,
+   "season": null,
+   "estimatedCost": [
+    50,
+    400
+   ],
+   "diy": true,
+   "appliesTo": [
+    "pwc"
+   ],
+   "description": "Inspect the wear ring and impeller for gravel damage; gap kills thrust."
+  },
+  {
+   "id": "fuel-lines",
+   "task": "Fuel Lines & Primer Bulb Inspection",
+   "system": "fuel",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    0,
+    120
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Check for cracking, softness, and ethanol degradation; replace gray pre-ethanol-era lines."
+  },
+  {
+   "id": "fuel-stabilizer",
+   "task": "Fuel Stabilization (Layup)",
+   "system": "fuel",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "fall",
+   "estimatedCost": [
+    10,
+    30
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "pwc",
+    "pontoon",
+    "sailboat"
+   ],
+   "description": "Stabilize fuel and run it through the engine before storage; stale ethanol fuel is the #1 spring no-start."
+  },
+  {
+   "id": "tank-inspect",
+   "task": "Fuel Tank & Vent Inspection",
+   "system": "fuel",
+   "hourInterval": null,
+   "monthInterval": 24,
+   "season": null,
+   "estimatedCost": [
+    0,
+    100
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "pwc",
+    "pontoon",
+    "sailboat"
+   ],
+   "description": "Inspect accessible tank surfaces, fittings, and the vent line for blockage or corrosion."
+  },
+  {
+   "id": "batteries",
+   "task": "Battery Test & Terminal Service",
+   "system": "electrical",
+   "hourInterval": null,
+   "monthInterval": 6,
+   "season": null,
+   "estimatedCost": [
+    0,
+    50
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Load-test start and house batteries, clean and protect terminals; marine batteries die young from neglect."
+  },
+  {
+   "id": "battery-replace",
+   "task": "Battery Replacement",
+   "system": "electrical",
+   "hourInterval": null,
+   "monthInterval": 48,
+   "season": null,
+   "estimatedCost": [
+    120,
+    400
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Marine batteries typically last 3-5 seasons; replace proactively rather than at the ramp."
+  },
+  {
+   "id": "bilge-pump",
+   "task": "Bilge Pump & Float Switch Test",
+   "system": "electrical",
+   "hourInterval": null,
+   "monthInterval": 3,
+   "season": null,
+   "estimatedCost": [
+    0,
+    80
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Lift the float, confirm the pump runs and actually discharges overboard; test the manual switch too."
+  },
+  {
+   "id": "nav-lights",
+   "task": "Navigation Lights Check",
+   "system": "electrical",
+   "hourInterval": null,
+   "monthInterval": 6,
+   "season": null,
+   "estimatedCost": [
+    0,
+    60
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "All running lights working; carry spare bulbs/fuses. A dark boat at dusk is a citation and a hazard."
+  },
+  {
+   "id": "wiring-check",
+   "task": "Wiring & Connections Inspection",
+   "system": "electrical",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    0,
+    200
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Look for green corrosion, chafed insulation, and loose crimps, especially in the bilge."
+  },
+  {
+   "id": "bottom-paint",
+   "task": "Antifouling Bottom Paint",
+   "system": "hull",
+   "hourInterval": null,
+   "monthInterval": 24,
+   "season": "spring",
+   "estimatedCost": [
+    200,
+    1200
+   ],
+   "diy": false,
+   "appliesTo": [
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "outboard",
+    "pontoon"
+   ],
+   "description": "Repaint per water type and paint kind \u2014 annually in warm salt water, every 2-3 years in fresh."
+  },
+  {
+   "id": "hull-wax",
+   "task": "Hull Wash & Wax",
+   "system": "hull",
+   "hourInterval": null,
+   "monthInterval": 6,
+   "season": "spring",
+   "estimatedCost": [
+    30,
+    400
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Wash and wax topsides twice a season; oxidized gelcoat is far costlier to restore than to prevent."
+  },
+  {
+   "id": "hull-anodes",
+   "task": "Hull / Shaft / Trim-Tab Anodes",
+   "system": "hull",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    20,
+    150
+   ],
+   "diy": true,
+   "appliesTo": [
+    "sterndrive",
+    "inboard",
+    "sailboat"
+   ],
+   "description": "Replace hull-mounted anodes at 50% wear; saltwater boats eat them faster."
+  },
+  {
+   "id": "thru-hulls",
+   "task": "Thru-Hull & Seacock Service",
+   "system": "hull",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    0,
+    200
+   ],
+   "diy": true,
+   "appliesTo": [
+    "sterndrive",
+    "inboard",
+    "sailboat"
+   ],
+   "description": "Exercise every seacock, inspect hoses and double clamps; a frozen seacock is an emergency you can't stop."
+  },
+  {
+   "id": "toon-clean",
+   "task": "Pontoon Tube Cleaning & Inspection",
+   "system": "hull",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    30,
+    300
+   ],
+   "diy": true,
+   "appliesTo": [
+    "pontoon"
+   ],
+   "description": "Clean aluminum toons, inspect welds and keels for damage; check for water inside the tubes."
+  },
+  {
+   "id": "stuffing-box",
+   "task": "Stuffing Box / Shaft Seal Check",
+   "system": "hull",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": null,
+   "estimatedCost": [
+    0,
+    250
+   ],
+   "diy": true,
+   "appliesTo": [
+    "inboard",
+    "sailboat"
+   ],
+   "description": "Traditional packing should drip seconds-apart underway, never at rest; adjust or repack as needed."
+  },
+  {
+   "id": "rig-inspect",
+   "task": "Standing Rigging Inspection",
+   "system": "rig",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    0,
+    350
+   ],
+   "diy": true,
+   "appliesTo": [
+    "sailboat"
+   ],
+   "description": "Check swages, turnbuckles, and wire for cracks and broken strands; insurers often want professional inspection every few years."
+  },
+  {
+   "id": "running-rig",
+   "task": "Running Rigging & Winch Service",
+   "system": "rig",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    20,
+    250
+   ],
+   "diy": true,
+   "appliesTo": [
+    "sailboat"
+   ],
+   "description": "Wash lines, inspect for chafe, and service winches (clean, grease, new pawl springs as needed)."
+  },
+  {
+   "id": "sail-inspect",
+   "task": "Sail Inspection & Repair",
+   "system": "rig",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "fall",
+   "estimatedCost": [
+    0,
+    400
+   ],
+   "diy": true,
+   "appliesTo": [
+    "sailboat"
+   ],
+   "description": "Check stitching, UV covers, and batten pockets; small repairs now prevent blown seams offshore."
+  },
+  {
+   "id": "flares",
+   "task": "Flares / Visual Distress Signals",
+   "system": "safety",
+   "hourInterval": null,
+   "monthInterval": 42,
+   "season": null,
+   "estimatedCost": [
+    30,
+    100
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "USCG-required flares expire 42 months from manufacture \u2014 check dates, replace expired sets."
+  },
+  {
+   "id": "extinguishers",
+   "task": "Fire Extinguisher Inspection",
+   "system": "safety",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": null,
+   "estimatedCost": [
+    0,
+    80
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Gauge in the green, pin sealed, no corrosion; disposable marine extinguishers are dated \u2014 replace per label."
+  },
+  {
+   "id": "pfds",
+   "task": "Life Jacket / PFD Inspection",
+   "system": "safety",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    0,
+    200
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Check every PFD for tears, UV rot, and working buckles; rearm auto-inflatables per schedule."
+  },
+  {
+   "id": "epirb",
+   "task": "EPIRB / PLB Battery & Registration",
+   "system": "safety",
+   "hourInterval": null,
+   "monthInterval": 60,
+   "season": null,
+   "estimatedCost": [
+    0,
+    250
+   ],
+   "diy": false,
+   "appliesTo": [
+    "sterndrive",
+    "inboard",
+    "sailboat"
+   ],
+   "description": "Replace beacon batteries by the printed date (typically 5 years) and keep NOAA registration current."
+  },
+  {
+   "id": "co-detector",
+   "task": "Carbon Monoxide Detector Test",
+   "system": "safety",
+   "hourInterval": null,
+   "monthInterval": 6,
+   "season": null,
+   "estimatedCost": [
+    0,
+    120
+   ],
+   "diy": true,
+   "appliesTo": [
+    "sterndrive",
+    "inboard",
+    "sailboat"
+   ],
+   "description": "Test monthly in season; replace units per manufacturer life. CO kills quietly on cabin boats."
+  },
+  {
+   "id": "first-aid",
+   "task": "First Aid Kit Refresh",
+   "system": "safety",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    15,
+    60
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Restock used items, replace expired meds, add sunburn and seasickness supplies."
+  },
+  {
+   "id": "head-service",
+   "task": "Marine Head / Holding Tank Service",
+   "system": "systems",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": null,
+   "estimatedCost": [
+    20,
+    200
+   ],
+   "diy": true,
+   "appliesTo": [
+    "sterndrive",
+    "inboard",
+    "sailboat"
+   ],
+   "description": "Service joker valves and seals, treat the holding tank; the smell problem is always a maintenance problem."
+  },
+  {
+   "id": "freshwater",
+   "task": "Freshwater System Sanitize",
+   "system": "systems",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    10,
+    80
+   ],
+   "diy": true,
+   "appliesTo": [
+    "sterndrive",
+    "inboard",
+    "sailboat"
+   ],
+   "description": "Sanitize tank and lines with a bleach solution each spring; filter change if fitted."
+  },
+  {
+   "id": "canvas",
+   "task": "Canvas, Covers & Upholstery Care",
+   "system": "systems",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    20,
+    300
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Clean and waterproof canvas, treat vinyl, check zippers; sun is the boat's relentless enemy."
+  },
+  {
+   "id": "windlass",
+   "task": "Anchor Windlass & Ground Tackle",
+   "system": "systems",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    0,
+    150
+   ],
+   "diy": true,
+   "appliesTo": [
+    "sterndrive",
+    "inboard",
+    "sailboat"
+   ],
+   "description": "Service the windlass, end-for-end the rode, inspect shackles and splices."
+  },
+  {
+   "id": "trailer-bearings",
+   "task": "Trailer Wheel Bearings",
+   "system": "trailer",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    30,
+    250
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Repack or replace bearings annually \u2014 dunked bearings fail fast, and a seized hub at 60 mph is catastrophic."
+  },
+  {
+   "id": "trailer-lights",
+   "task": "Trailer Lights & Wiring",
+   "system": "trailer",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    0,
+    80
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Test all lights before every season; submerged connections corrode constantly."
+  },
+  {
+   "id": "trailer-tires",
+   "task": "Trailer Tires (Age & Pressure)",
+   "system": "trailer",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    0,
+    400
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Check pressure cold and replace trailer tires by age (5-6 years) regardless of tread \u2014 sidewall rot blows them."
+  },
+  {
+   "id": "winch-strap",
+   "task": "Winch Strap & Tie-Downs",
+   "system": "trailer",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": null,
+   "estimatedCost": [
+    15,
+    80
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Inspect the bow strap and transom tie-downs for fraying; replace cheap insurance items cheaply."
+  },
+  {
+   "id": "trailer-brakes",
+   "task": "Trailer Brake Service",
+   "system": "trailer",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "fall",
+   "estimatedCost": [
+    50,
+    350
+   ],
+   "diy": false,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Flush after salt ramps, inspect pads and actuator; surge brakes corrode from the inside."
+  },
+  {
+   "id": "winterize-engine",
+   "task": "Winterize Engine & Systems",
+   "system": "seasonal",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "fall",
+   "estimatedCost": [
+    100,
+    500
+   ],
+   "diy": false,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "pwc",
+    "pontoon",
+    "sailboat"
+   ],
+   "description": "Drain or antifreeze-protect the engine, water systems, and head before first freeze \u2014 the single most expensive task to skip."
+  },
+  {
+   "id": "shrink-wrap",
+   "task": "Winter Cover / Shrink Wrap",
+   "system": "seasonal",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "fall",
+   "estimatedCost": [
+    50,
+    800
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Cover or wrap for storage; ensure ventilation to prevent mildew."
+  },
+  {
+   "id": "spring-commission",
+   "task": "Spring Commissioning",
+   "system": "seasonal",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    100,
+    600
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "pwc",
+    "pontoon",
+    "sailboat"
+   ],
+   "description": "De-winterize: reconnect systems, fresh fuel, check fluids, test run before the first real outing."
+  },
+  {
+   "id": "sea-trial",
+   "task": "First Sea Trial of Season",
+   "system": "seasonal",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    0,
+    0
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Short shakedown run close to the ramp: temps, charging voltage, bilge dry, steering smooth."
+  },
+  {
+   "id": "registration",
+   "task": "Registration & Documentation Renewal",
+   "system": "seasonal",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": null,
+   "estimatedCost": [
+    20,
+    200
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Renew state registration / USCG documentation and update decals before they lapse."
+  },
+  {
+   "id": "insurance-review",
+   "task": "Insurance & Photos Update",
+   "system": "seasonal",
+   "hourInterval": null,
+   "monthInterval": 12,
+   "season": "spring",
+   "estimatedCost": [
+    0,
+    0
+   ],
+   "diy": true,
+   "appliesTo": [
+    "outboard",
+    "sterndrive",
+    "inboard",
+    "sailboat",
+    "pwc",
+    "pontoon"
+   ],
+   "description": "Review coverage, update the equipment list, and photograph the boat's condition for claims."
+  }
+ ]
+}
