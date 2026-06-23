@@ -1,0 +1,135 @@
+{
+  "app": "boat",
+  "schema": 1,
+  "generatedAt": "2026-06-23T03:56:48Z",
+  "disclaimer": "General information compiled from public sources, for reference only — not professional advice and not reviewed by licensed experts. Verify before acting; Team AM is not liable.",
+  "source": "researched (see per-topic sources)",
+  "topics": [
+    {
+      "id": "engine-winterization-freeze-protection",
+      "title": "Winterize the engine before the first hard freeze",
+      "summary": "Water left in the block or cooling system is the leading cause of freeze damage, so flush it out and protect with non-toxic antifreeze.",
+      "detail": "BoatUS reports that across 10 years of freeze claims, more than three-quarters involved cracked engine blocks or exhaust manifolds because water stayed in the engine or cooling system during a hard freeze. For inboard and stern-drive engines, disconnect the raw-water intake, run the engine on non-toxic propylene-glycol antifreeze until it flows from the exhaust, and change the oil and filter so residual acids and moisture don't pit bearings over the winter. Use only non-toxic (propylene glycol) antifreeze everywhere except the engine's fresh-water side.",
+      "tags": ["winterization", "engine", "cooling", "freeze"],
+      "severity": "attention",
+      "sources": [
+        { "name": "BoatUS — Winterizing Must Do's", "url": "https://www.boatus.com/expert-advice/expert-advice-archive/2012/september/winterizing-must-dos" }
+      ]
+    },
+    {
+      "id": "fogging-oil-cylinder-protection",
+      "title": "Fog the cylinders to prevent winter corrosion",
+      "summary": "Fogging oil coats internal engine surfaces so bare metal doesn't rust during months of storage.",
+      "detail": "BoatUS advises injecting fogging oil through the carburetor or EFI air intakes until the engine smokes, then continuing until it stalls, which flushes the cylinders and rings with a protective oil film. This guards against the surface corrosion that forms on exposed metal during long layup. Follow your engine manufacturer's manual for the exact procedure for your motor.",
+      "tags": ["winterization", "engine", "corrosion"],
+      "severity": "info",
+      "sources": [
+        { "name": "BoatUS — Winterizing Must Do's", "url": "https://www.boatus.com/expert-advice/expert-advice-archive/2012/september/winterizing-must-dos" }
+      ]
+    },
+    {
+      "id": "impeller-water-pump-interval",
+      "title": "Replace the raw-water impeller on a time schedule, not just by looks",
+      "summary": "Rubber impellers stiffen and crack with age even when they look fine, so replace them on an interval before they fail.",
+      "detail": "BoatUS notes rubber impellers have a shelf life whether installed or not, and that servicing the water pump about every other year is often right. A commonly cited interval is annually or every ~100 hours for outboards, while many owners replace impellers every 2 years regardless of hours because winterizing and antifreeze can leave them too stiff to prime. A failed impeller stops cooling water and can quickly overheat the engine, so don't wait for visible damage.",
+      "tags": ["engine", "cooling", "impeller", "interval"],
+      "severity": "attention",
+      "sources": [
+        { "name": "BoatUS — Replacing a Pump Impeller", "url": "https://www.boatus.com/expert-advice/expert-advice-archive/2019/january/replacing-a-pump-impeller" },
+        { "name": "BoatUS — Outboard Water-Pump Impeller Service", "url": "https://www.boatus.com/expert-advice/expert-advice-archive/2017/february/outboard-water-pump-impeller-service" }
+      ]
+    },
+    {
+      "id": "anode-zinc-inspection",
+      "title": "Inspect anodes and replace at about 50% wear",
+      "summary": "Sacrificial anodes protect underwater metal by corroding first, but lose effectiveness once roughly half is gone.",
+      "detail": "Anodes should be inspected regularly and replaced once they have lost about 50% of their original mass, because reduced surface area can no longer adequately protect props, shafts, and other underwater metal. Inspect every few months — more often for boats kept in the water or in a 'hot' marina — since saltwater use often means replacement every 6 to 12 months. Match anode material to your water (zinc for salt, aluminum or magnesium for brackish/fresh) per your boat or engine guidance.",
+      "tags": ["corrosion", "anode", "zinc", "hull", "interval"],
+      "severity": "attention",
+      "sources": [
+        { "name": "BoatUS — How Do Sacrificial Anodes Work?", "url": "https://www.boatus.com/expert-advice/expert-advice-archive/2012/july/how-do-sacrificial-anodes-work" },
+        { "name": "West Marine — Preventing Galvanic Corrosion", "url": "https://www.westmarine.com/west-advisor/Preventing-Galvanic-Corrosion.html" }
+      ]
+    },
+    {
+      "id": "bilge-pump-test-and-leaks",
+      "title": "Test the bilge pump fully — and fix leaks at the source",
+      "summary": "Flipping the switch only proves the motor runs; flood-testing proves the whole system pumps water overboard, and a bilge pump is not a fix for leaks.",
+      "detail": "BoatUS notes the only way to prove a bilge pump system works is to flood the bilge with water and watch the float switch start the motor and discharge the water overboard — turning the switch on by hand only proves the motor runs. A common practice is to test in both AUTO and MANUAL monthly and replace float switches that show sticking. Critically, a bilge pump is intended only for nuisance water; it cannot keep up with a real hull breach, so regularly check hoses, clamps, valves, and thru-hulls and fix known leaks.",
+      "tags": ["bilge", "safety", "leaks", "thru-hull"],
+      "severity": "safety",
+      "sources": [
+        { "name": "BoatUS — Bilge Pump Troubleshooting", "url": "https://www.boatus.com/expert-advice/expert-advice-archive/2016/april/bilge-pump-troubleshooting" }
+      ]
+    },
+    {
+      "id": "ethanol-fuel-phase-separation",
+      "title": "Guard against ethanol fuel phase separation",
+      "summary": "E10 gasoline absorbs water and can phase-separate, which no additive can reverse once it happens.",
+      "detail": "Ethanol attracts water, and once enough water enters the tank it bonds with the ethanol and sinks to the bottom as a separate layer that no stabilizer or water separator can recombine. To prevent it, add a fuel stabilizer and store with tanks at roughly 90–95% full to limit condensation and leave room for expansion; phase separation is more likely when tanks sit only a quarter to half full. Keep water out of the tank and use fuel before it ages.",
+      "tags": ["fuel", "ethanol", "storage", "winterization"],
+      "severity": "attention",
+      "sources": [
+        { "name": "West Marine — Busting Ethanol Fuel Myths", "url": "https://www.westmarine.com/west-advisor/Busting-Ethanol-Fuel-Myths.html" },
+        { "name": "Hawaii DOBOR — Ethanol and Your Marine Engine (E-10)", "url": "https://dlnr.hawaii.gov/dobor/boating/e10-gasoline/" }
+      ]
+    },
+    {
+      "id": "fuel-hose-inspection",
+      "title": "Inspect fuel hoses and clamps; use marine-rated hose",
+      "summary": "Marine fuel lines must meet USCG/SAE J1527 ratings, and cracked or weeping hose is a fire and fuel-leak risk.",
+      "detail": "Marine fuel hose is rated under SAE J1527 / USCG types (e.g., A1 feed, A2 fill/vent), and replacement hose should match the correct type for its use. Regularly check fuel lines and fittings for cracking, softening, or seepage and replace worn hose promptly, securing connections with stainless or brass clamps. When in doubt about routing, materials, or standards (ABYC H-24), have a qualified marine technician inspect the fuel system.",
+      "tags": ["fuel", "safety", "hose", "inspection"],
+      "severity": "safety",
+      "sources": [
+        { "name": "Defender — USCG Fuel Hose Ratings (Trident)", "url": "https://defender.com/assets/pdf/trident/uscg-fuel-hose-ratings.pdf" },
+        { "name": "USCG Boating — ABYC Fuel and Emissions standard", "url": "https://www.uscgboating.org/assets/1/AssetManager/ABYC.1002.01.pdf" }
+      ]
+    },
+    {
+      "id": "gelcoat-wax-uv-protection",
+      "title": "Wax the gelcoat to slow UV oxidation",
+      "summary": "Wax acts as a sacrificial UV barrier so the gelcoat doesn't chalk and dull.",
+      "detail": "Unprotected gelcoat breaks down under UV, turning chalky and rough as the resin oxidizes; a coat of marine wax takes that UV damage instead and fills surface pores to repel grime and water spots. Wash first with a pH-neutral marine wash since wax over a dirty surface won't bond evenly. A wax coat typically lasts several months up to about a year depending on climate and UV exposure, so reapply on that cadence.",
+      "tags": ["hull", "gelcoat", "uv", "cleaning"],
+      "severity": "info",
+      "sources": [
+        { "name": "West Marine — Gelcoat Care and Restoration", "url": "https://www.westmarine.com/west-advisor/Gelcoat-Care-and-Restoration.html" }
+      ]
+    },
+    {
+      "id": "marine-battery-storage-care",
+      "title": "Store batteries fully charged on a smart maintainer",
+      "summary": "A lead-acid battery self-discharges over winter and can sulfate or freeze if left low.",
+      "detail": "A lead-acid battery may lose about 5% of its charge per month, so charge it to full before storage and keep it topped up — BoatUS recommends a marine smart charger that can stay connected and regulate charging automatically, rather than a simple trickle charger. Disconnect cables (negative first) or use a battery switch to stop parasitic drains. Clean terminal corrosion with a baking-soda-and-water solution, rinse, dry, then coat terminals with dielectric grease or a corrosion inhibitor.",
+      "tags": ["battery", "electrical", "winterization", "storage"],
+      "severity": "info",
+      "sources": [
+        { "name": "BoatUS — Marine Battery Maintenance", "url": "https://www.boatus.com/expert-advice/expert-advice-archive/2018/june/marine-battery-maintenance" }
+      ]
+    },
+    {
+      "id": "trailer-bearing-service",
+      "title": "Repack trailer wheel bearings at least yearly",
+      "summary": "Submersion in water washes out grease, so trailer bearings need marine grease and regular service.",
+      "detail": "Repack trailer wheel bearings at least once a year, and twice a year if you frequently launch in saltwater or muddy water, using waterproof marine-grade grease rather than automotive grease. Salt exposure can emulsify grease, harden seals, and rust the rollers and races, leading to bearing failure on the road. Bearing protectors (e.g., Bearing Buddy) extend the interval but don't replace periodic repacking — inspect and repack every few seasons even with them installed.",
+      "tags": ["trailer", "bearings", "interval", "saltwater"],
+      "severity": "attention",
+      "sources": [
+        { "name": "Mercury Marine — Check and Add Grease to Trailer Wheel Bearings", "url": "https://www.mercurymarine.com/us/en/lifestyle/dockline/quick-tip-how-to-check-and-add-grease-to-trailer-wheel-bearings" },
+        { "name": "Discover Boating — Boat Trailer Maintenance", "url": "https://www.discoverboating.com/ownership/towing-and-trailering/boat-trailer-maintenance" }
+      ]
+    },
+    {
+      "id": "uscg-required-safety-equipment",
+      "title": "Carry and maintain USCG-required safety gear",
+      "summary": "Federal rules require accessible, in-date life jackets, fire extinguishers, and signals, checked before each trip.",
+      "detail": "Federal rules require one USCG-approved wearable PFD per person plus a throwable (Type IV) on boats 16 ft and over, with wearable PFDs readily accessible and not buried under gear; children under 13 must wear one when underway on a recreational vessel unless below deck. Fire extinguishers must be USCG-approved, no more than 12 years past the manufacture date, and 2018-or-newer boats need 5-B/10-B/20-B labeled units. Visual distress signals are required on coastal waters, the Great Lakes, and connected waters more than two nautical miles wide; check all gear before every trip and replace expired items.",
+      "tags": ["safety", "uscg", "pfd", "fire-extinguisher", "compliance"],
+      "severity": "safety",
+      "sources": [
+        { "name": "BoatUS — USCG Equipment Requirements", "url": "https://boatus.org/boating-safety/uscg-equipment-requirements/" }
+      ]
+    }
+  ]
+}
